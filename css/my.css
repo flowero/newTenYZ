@@ -1,0 +1,18 @@
+.header{
+position: relative;
+color: #FFFFFF;
+display: block;
+margin: 0 auto;
+height: 300px;
+padding: .6rem 0;
+width: 100%;
+text-align: center;
+background-image: -webkit-linear-gradient(top left , #730cc9, #ff6ed7);
+background-image: -o-linear-gradient(top left , #730cc9, #ff6ed7);
+background-image: linear-gradient( top left , #730cc9, #ff6ed7);}
+
+.list-item{display: inline-block; text-align: center;}
+.header img{height: 170px;}
+body{font-family: "Microsoft YaHei"!important;}
+blockquote{min-height: 80px; border-left: 0px !important;}
+.list{color: white;}

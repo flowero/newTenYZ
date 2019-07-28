@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>扬州新十佳</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/mui.min.js"></script>
+	<script src="js/my.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	<link href="css/my.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" charset="utf-8">
+			mui.init();
+	</script>
+	<style type="text/css">
+		html,body{
+			width:100%;
+			height:100%;
+		}
+		*{
+			margin:0px;
+			padding:0px;
+		}
+		body {
+			font: 12px/16px Verdana, Helvetica, Arial, sans-serif;
+		}
+		#container{
+			min-width:600px;
+			min-height:367px;
+		}
+	</style>
+	<script charset="utf-8" src="https://map.qq.com/api/js?v=2.exp&key=LZ4BZ-GUAKD-UOK43-HCD7P-IZWAO-2XFUM"></script>
+	<script>
+    window.onload = function () {
+        function init() {
+            // 创建地图
+            var map = new qq.maps.Map(document.getElementById("container"), {
+                center: new qq.maps.LatLng(32.423730,119.412100),      // 地图的中心地理坐标
+                zoom: 13,     // 地图缩放级别
+				zoomControl: false,
+                mapStyleId: 'style1'  // 该key绑定的style1对应于经典地图样式，若未绑定将弹出无权限提示窗
+            });
+        }
+        //调用初始化函数
+        init();
+    }
+	</script>
+</head>
+
+<body>
+<!--   定义地图显示容器   -->
+<div id="container"></div>
+
+	<div class = "header">
+
+		<h1>《先锋城市地图教育联盟》致力于构建教育联盟体系，整合事业资源，形成跨领域、跨区域教育合作体，充分发挥各机构核心优势，合理解决当前民办教育中存在的问题。我们欢迎开放多元关注公平和创新，努力打造具有公信力的多方资源教育智库，提供一套具有影响力的信息发布平台。</h1>
+		
+	</div>
+
+		<div class = "list mui-row">
+			<div style = "background: #BA55D3;" class = "list-item mui-col-xs-4">
+				
+				<h2>专业</h2>
+				<blockquote>
+					8年考研培训经验
+				</blockquote>
+			</div>
+			<div style = "background: #DDA0DD;" class = "list-item mui-col-xs-4">
+				
+				<h2>权威</h2>
+				<blockquote>
+					30余位权威教师
+				</blockquote>
+			</div>
+			<div style = "background: #EE82EE;" class = "list-item mui-col-xs-4">
+				
+				<h2>负责</h2>
+				<blockquote>
+					100余位全职教练
+				</blockquote>
+			</div>
+		</div>
+		<div class = "container">
+		<div class = "mui-row">
+			<div class = "mui-col-xs-3 mui-text-left">
+				<h4>报名方式</h4>
+				<p>
+					登录网站首页报名<br>
+					www.oui.app
+				</p>
+				<p>
+					添加报名微信<br>
+					lifeslow
+				</p>
+			</div>
+			<div class = "mui-col-xs-6 mui-text-left">
+				<img style = "width: 100%; padding-top: 50px;" src="map.png" >
+			</div>
+			<div class = "mui-col-xs-3 mui-text-left">
+				<img style = "float: left; width: 50%; padding-top: 50px;" src="jzsq.jpg" >
+				<img style = "float: right; width: 50%; padding-top: 50px;" src="life_slow.jpg" >
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
